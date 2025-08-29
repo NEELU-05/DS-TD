@@ -45,7 +45,7 @@ def search_employee():
             print(f"Department: {emp['department']}")
             print(f"Salary: {emp['salary']}\n")
         else:
-            print("❌ Employee not found.\n")
+            print(" Employee not found.\n")
     except ValueError:
         print(" Invalid input! Please enter a number.\n")
 
@@ -73,3 +73,4 @@ def main_menu():
 
 if __name__ == "__main__":
     main_menu()
+
